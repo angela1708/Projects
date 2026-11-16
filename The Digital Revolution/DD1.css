@@ -1,0 +1,97 @@
+/* CSS for DataDescription.html */
+
+/* Top Page */
+#DDMainHeader {
+    
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    text-align: center;         
+    
+    width: auto;                
+    height: auto;               
+    padding: 20px;     
+    
+    
+    background-color: lightblue;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+    font-size: 50px;
+}
+
+
+/* Page Links Box */
+#pageLinksBox {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    text-align: center;         
+      
+    width: auto;                
+    height: auto;               
+    padding: 10px;              
+      
+    background-color: black;
+}
+
+.linksButton {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 165px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.inBetweenSpace {
+    color: black;
+}
+
+
+/* Data Description */
+
+#pagesInfo {
+    text-align: center;
+    font-size: 25px;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+}
+
+
+.descriptionText {
+    font-size: 15px;
+    text-align: center;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.clickAgain {
+    color: lightgray;
+}
+
+.topicButton {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    text-align: center;  
+    margin: 0 auto;
+    
+    background-color: lightblue;
+    
+    width: 250px;                
+    height: 100px; 
+    padding: 10px; 
+    border-radius: 10px;
+    border-color: white;
+    
+    font-size: 20px;
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+}
+
+
+/* Bottom Page */
+#bottomBg {
+    background-color: lightgray;
+}
+
+.horizontalLine {
+    border: 1px solid darkgray;
+}

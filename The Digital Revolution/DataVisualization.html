@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>The Digital Revolution: About Us Page</title>
+    
+    <!-- Link this HTML file it's CSS file -->
+    <link href="DV1.css" rel="stylesheet" type="text/css">
+    
+    <!-- Link BootStrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <!-- Main page title (header) & page links -->
+    <h1 id="DVMainHeader"> The Digital Revolution </h1>
+    
+    <!-- Button links to projects pages -->
+    <p id="pageLinksBox">
+        <a href="TheDigitalRevolution.html"><button class="linksButton">Home</button></a>
+        <span class="inBetweenSpace">|||||</span>
+        <a href="DataDescription.html"><button class="linksButton">Data Description</button></a>
+        <span class="inBetweenSpace">|||||</span>
+        <a href="DataVisualization.html"><button class="linksButton">Data Visualization</button></a>
+        <span class="inBetweenSpace">|||||</span>
+        <a href="AboutUs.html"><button class="linksButton"><b>About Us</b></button></a>
+    </p>
+    
+    
+    <h1>Technology Timeline</h1>
+    <p>Click a blue dot to see what invention happened at that point in time.</p>
+
+    <div id="timeline">
+        <div id="line"></div>
+
+         <!-- Clickable Dots -->
+        <div class="dot" style="left:50px; top:100px;" onclick="showInfo('1440 — Printing Press')"></div>
+        <div class="dot" style="left:200px; top:100px;" onclick="showInfo('1837 — Telegraph')"></div>
+        <div class="dot" style="left:260px; top:100px;" onclick="showInfo('1876 — Telephone')"></div>
+        <div class="dot" style="left:330px; top:100px;" onclick="showInfo('1901 — Radio')"></div>
+        <div class="dot" style="left:430px; top:100px;" onclick="showInfo('1947 — Transistor')"></div>
+        <div class="dot" style="left:520px; top:100px;" onclick="showInfo('1973 — Mobile Phone')"></div>
+        <div class="dot" style="left:600px; top:100px;" onclick="showInfo('1989 — World Wide Web')"></div>
+        <div class="dot" style="left:700px; top:100px;" onclick="showInfo('2007 — iPhone')"></div>
+        <div class="dot" style="left:760px; top:100px;" onclick="showInfo('2010 — Cloud Computing')"></div>
+        <div class="dot" style="left:820px; top:100px;" onclick="showInfo('2020 — AI Boom')"></div>
+    </div>
+
+    <div id="info">Click a dot to display the invention.</div>
+
+    <script src="DV2.js"></script>
+    
+    
+    <!-- Contact information or whatever its called at the bottom of the page-->
+    <div id="bottomBg">
+        <div class="container">
+            <div class="row">
+                <p></p>
+                <p style="text-align: right;">FA25-IN-INFO-I101-24208</p>
+                <hr class="horizontalLine2">
+                <p >Email: avilaan@iu.edu | Phone: (###) ###-####</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

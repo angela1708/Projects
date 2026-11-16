@@ -1,0 +1,58 @@
+* {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+/* Self-Explanatory, Website font */   
+
+h1 {
+    color:  #FFCC00;
+    font-size: 70px;
+}
+/* Title Color */
+
+p { 
+    font-size: 18px;
+    color: black;
+}
+/* Paragraph Color */
+
+h2 { 
+    color:  black;
+    font-size: 38px; 
+}
+/* Subheading Color 2 */
+
+h3 {
+    color: #BEBEB9;
+    font-size: 38px;
+}
+/* Subheading Color 3 */
+
+
+
+
+
+
+
+/*
+^^ to start
+Below is an example given in the forage. This is also an example of a block comment in CSS code!
+* {
+    font-family: Helvetica;
+}
+  
+h1 {
+    color: rgb(13, 13, 65);
+    font-size: 24px;
+}
+  
+p {
+    font-size: 14px;
+    color: rgb(41, 40, 40);
+}
+
+body {
+    background-color: rgb(184, 245, 253);
+}
+vv to end
+*/ 
